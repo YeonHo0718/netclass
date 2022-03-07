@@ -1,5 +1,5 @@
 :A
-taskkill /f /im NetScreenCapture.exe
-taskkill /f /im MoniteringNC8Service.exe
-taskkill /f /im rncHost.exe
+taskkill /t /f /im NetScreenCapture.exe
+taskkill /t /f /im MoniteringNC8Service.exe
+taskkill /t /f /im rncHost.exe
 goto A
